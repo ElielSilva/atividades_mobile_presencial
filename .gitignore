@@ -1,0 +1,27 @@
+# Ignorar pastas de build (em qualquer módulo)
+**/build/
+
+# Ignorar arquivos locais
+.gradle/
+local.properties
+.idea/
+*.iml
+
+# Ignorar artefatos
+*.apk
+*.ap_
+*.log
+*.hprof
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Previews e cache
+*.preview
