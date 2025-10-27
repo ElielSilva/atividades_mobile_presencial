@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<navigation xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:id="@+id/nav_graph.xml">-->
+
+<!--</navigation>-->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/coffeeFragment">
+
+    <fragment
+        android:id="@+id/coffeeFragment"
+        android:name="com.example.myapplicationtest.FragA4.CoffeeFragment"
+        android:label="Cafés">
+        <action
+            android:id="@+id/action_coffeeFragment_to_detailFragment"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/methodsFragment"
+        android:name="com.example.myapplicationtest.FragA4.MethodsFragment"
+        android:label="Métodos" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.myapplicationtest.FragA4.FavoritesFragment"
+        android:label="Favoritos" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.myapplicationtest.FragA4.DetailFragment"
+        android:label="Detalhes">
+        <argument
+            android:name="coffeeName"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

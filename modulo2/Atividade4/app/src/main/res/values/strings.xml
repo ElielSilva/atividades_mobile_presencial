@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_characters">characters</string>
+    <string name="txt_planets">planets</string>
+    <string name="txt_favorits">favorits</string>
+    <string name="nome_do_caf">Nome do café</string>
+</resources>

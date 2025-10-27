@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/coffeeFragment"
+        android:title="Cafés"
+        android:icon="@drawable/ic_coffee" />
+    <item
+        android:id="@+id/methodsFragment"
+        android:title="Métodos"
+        android:icon="@drawable/ic_method" />
+    <item
+        android:id="@+id/favoritesFragment"
+        android:title="Favoritos"
+        android:icon="@drawable/ic_favorite" />
+</menu>
